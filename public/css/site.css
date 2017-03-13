@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+html,
+body {
+    font-family: 'Baloo Bhaina', cursive;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #ee6e73;
+    height: 100vh;
+    font-size: 15px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+nav ul li {
+    margin: 2px 0;
+}
+
+nav a {
+    display: block;
+    width: 100%;
+    color: coral;
+    background-color: beige;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.information {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+}
+
+.container .text-welcome {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+
+.row {
+    display: block;
+}
+
+nav a:visited {
+    color: coral;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    min-height: 50px;
+    text-align: center;
+    background-color: bisque;
+}
+
+section {
+    display: block;
+}
+
+section .col-first {
+    margin: 5px auto;
+    width: 100%;
+    max-height: 300px;
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+
+#add-moment {
+    display: none;
+}
+
+.menu {
+    display: block;
+}
+
+@media only screen and (min-width: 330px) {
+    nav ul li {
+        display: inline-block;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    nav a {
+        padding: 0 5px 0 5px;
+    }
+    #add-moment {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 770px) {
+    #add-moment {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+}

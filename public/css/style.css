@@ -1,0 +1,92 @@
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+
+/* Main Styles
+================================================================= */
+
+#add-moment {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+}
+
+#plus-ex {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 9000;
+    -webkit-transition: all .3s ease;
+}
+
+#add-moment ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#add-moment li {
+    list-style: none;
+    position: absolute;
+    margin: 10px 10px;
+    padding: 0;
+    -webkit-transition: all .4s ease-in-out;
+}
+
+#add-moment img.icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* CSS3 Animations
+================================================================= */
+
+.plus {
+    -webkit-transform: rotate(0deg);
+}
+
+.ex {
+    -webkit-transform: rotate(-45deg);
+}
+
+.icon-picture.out {
+    top: -132px;
+    -webkit-transform: rotate(-720deg);
+}
+
+.icon-people.out {
+    top: -125px;
+    left: -45px;
+    -webkit-transform: rotate(-720deg);
+}
+
+.icon-place.out {
+    top: -107px;
+    left: -83px;
+    -webkit-transform: rotate(-720deg);
+}
+
+.icon-music.out {
+    top: -77px;
+    left: -113px;
+    -webkit-transform: rotate(-720deg);
+}
+
+.icon-thought.out {
+    top: -39px;
+    left: -132px;
+    -webkit-transform: rotate(-720deg);
+}
+
+.icon-sleep.out {
+    left: -139px;
+    -webkit-transform: rotate(-720deg);
+}

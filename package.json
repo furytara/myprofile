@@ -1,0 +1,28 @@
+{
+    "name": "doanhcv",
+    "version": "1.0.0",
+    "description": "My publish profile",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "doanhcv"
+    },
+    "keywords": [
+        "frontend"
+    ],
+    "author": "Doanh",
+    "license": "ISC",
+    "dependencies": {
+        "cookie-parser": "^1.4.3",
+        "express": "^4.14.1",
+        "express-session": "^1.15.1",
+        "hogan-express": "^0.5.2"
+    },
+    "engines": {
+        "node": "6.9.5"
+    }
+}
