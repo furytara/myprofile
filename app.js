@@ -16,7 +16,7 @@ var env = process.env.NODE_ENV || 'development';
 app.use(session({ secret: config.sessionSecret, saveUninitialized: true, resave: true }));
 
 require('./routes/routes.js')(express, app);
-app.listen(5000, function() {
-    console.log('CHAT APP working on port 3000');
+app.listen(process.env.PORT || 5000, function() {
+    console.log('CHAT APP working on port ', process.env.PORT || 5000);
     console.log('ENV: ' + env);
 })
